@@ -5,12 +5,12 @@ import java.net.*;
 public class TelegramMessage {
     public void sendTelegramMessage(String message) {
         HttpURLConnection connection;
-        int timeout = 5000; // 5 second
+        int timeout = 5000; 
         try {
             URL url = new URL("https://api.telegram.org/bot1116154429:AAEfHnMDeiZmYDT99qMklM-YyEap4bd_OGg/sendMessage?chat_id=-447226957&text=" + message);
-            //----------------------------------------------------------------------------------------------------------------------
+
             //настройка подключения через proxy сервер
-            //----------------------------------------------------------------------------------------------------------------------
+
             Authenticator.setDefault(new Authenticator() {
                 public PasswordAuthentication getPasswordAuthentication(){
                     return new PasswordAuthentication("8WrLok", "gc5dJx".toCharArray());
@@ -18,13 +18,13 @@ public class TelegramMessage {
             });
             Proxy proxy = new Proxy(Proxy.Type.SOCKS, new InetSocketAddress("104.227.102.165", 9579));
             connection = (HttpURLConnection) url.openConnection(proxy);
-            //---------------------------------------------------------------------------------------------------------------------
+
             connection.setRequestMethod("GET");
             connection.setConnectTimeout(timeout);
             connection.setReadTimeout(timeout);
             connection.setDoInput(true);
             connection.setDoOutput(true);
-            //----------------------------------------------------------------------------------------------------------------------
+
             connection.connect();
 
             StringBuilder sb = new StringBuilder();

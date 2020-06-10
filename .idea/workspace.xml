@@ -5,6 +5,24 @@
       <artifact name="Server28052020:jar" />
     </artifacts-to-build>
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="BuildServerSettings">
     <option name="LOGIN" value="" />
     <option name="SERVER_URL" value="http://buildserver" />
@@ -30,11 +48,29 @@
     <option name="showStatusBarWidget" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4f84949-0b58-475b-bbfd-b45518fb70d1" name="Default Changelist" comment="" />
+    <list default="true" id="b4f84949-0b58-475b-bbfd-b45518fb70d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/SendServer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MailMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MailMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SendServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SendServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TelegramMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TelegramMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Server28052020.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MailMessage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MailMessage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MailMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MailMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SendServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SendServer.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,11 +79,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="1cXk2BRWDdOs2FcgWUWzPlkrNIS" />
@@ -55,13 +97,14 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$/../repa/eka4ka/sandbox" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../repa/eka4ka/sandbox" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -75,9 +118,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SendServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="SendServer" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SendServer" />
-      <module name="Server28052020" />
+      <module name="SendServer" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,13 +151,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Server" />
       <item itemvalue="Application.SendServer" />
+      <item itemvalue="Application.Server" />
       <item itemvalue="Application.SendMail" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SendServer" />
         <item itemvalue="Application.SendMail" />
         <item itemvalue="Application.Server" />
       </list>
@@ -133,6 +175,18 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590773089799">
       <screen x="0" y="0" width="1366" height="728" />
@@ -150,25 +204,41 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="434" y="147" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1590772131138" />
-    <state width="1323" height="117" key="GridCell.Tab.0.bottom" timestamp="1591014558051">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="502" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1591288112635">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="502" y="155" width="424" height="491" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1591288112635" />
+    <state width="1248" height="30" key="GridCell.Tab.0.bottom" timestamp="1591124151659">
+      <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state width="1323" height="117" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591014558051" />
-    <state width="1323" height="117" key="GridCell.Tab.0.center" timestamp="1591014558051">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1248" height="30" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1591124151659" />
+    <state width="1248" height="30" key="GridCell.Tab.0.center" timestamp="1591124151655">
+      <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state width="1323" height="117" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591014558051" />
-    <state width="1323" height="117" key="GridCell.Tab.0.left" timestamp="1591014558051">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1248" height="30" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1591124151655" />
+    <state width="1248" height="30" key="GridCell.Tab.0.left" timestamp="1591124151655">
+      <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state width="1323" height="117" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591014558051" />
-    <state width="1323" height="117" key="GridCell.Tab.0.right" timestamp="1591014558051">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1248" height="30" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1591124151655" />
+    <state width="1248" height="30" key="GridCell.Tab.0.right" timestamp="1591124151658">
+      <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state width="1323" height="117" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591014558051" />
+    <state width="1248" height="30" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1591124151658" />
+    <state x="252" y="55" width="924" height="691" key="Maven.ArtifactSearchDialog" timestamp="1591036468806">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="252" y="55" width="924" height="691" key="Maven.ArtifactSearchDialog/72.27.1294.741@72.27.1294.741" timestamp="1591036468806" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1590783944316">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1590783944316" />
+    <state x="72" y="27" width="1284" height="741" key="new project wizard" timestamp="1591288131152">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="72" y="27" width="1284" height="741" key="new project wizard/72.27.1294.741@72.27.1294.741" timestamp="1591288131152" />
   </component>
 </project>
